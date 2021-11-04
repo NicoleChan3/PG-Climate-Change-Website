@@ -1,0 +1,94 @@
+* {
+
+    font-family:"Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+
+}
+
+nav {
+    background-color: white;
+    width: 100%;
+    white-space: nowrap;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    top: 0;
+    text-align: center;
+    position:fixed
+}
+
+.navbar-brand {
+    font-family:"Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+    font-weight: bold;
+}
+
+.imageHeader {
+    background-image: url("https://www.friendsofeurope.org/wp/wp-content/uploads/2019/05/8569718518_dfa0e9624a_o.jpg");
+    min-height: 900px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.imageText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.imageFooter {
+    background-image: url("https://www.friendsofeurope.org/wp/wp-content/uploads/2019/05/8569718518_dfa0e9624a_o.jpg");
+    min-height: 250px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.imageFooterText {
+    padding-top: 100px;
+    text-align: center;
+    color: white;
+}
+
+h1 {
+
+    text-align: center; 
+    margin-top: 30px;
+    font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+    font-weight: bold;
+    font-size: 50;
+    padding-bottom: 5px;
+    padding-top: 10px;
+    
+}
+
+iframe {
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+p {
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.source {
+    font-style: italic;
+    color: rgb(179, 179, 179);
+
+}
+
+.blueSection {
+    background-color: rgb(109, 130, 136);
+    overflow: auto;
+    color: white;
+}
+
+
+.list {
+    padding-left: 400px;
+    padding-right: 400px;
+}
